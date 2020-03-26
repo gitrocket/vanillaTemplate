@@ -1,0 +1,49 @@
+
+/*** css template ***/
+
+/*** css reset ***/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: rgb(226,160,37)
+  }
+  /* body * {
+    outline: 1px solid pink;
+  } */
+
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr 9fr;
+  }
+
+  header div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    color: rgb(255,221,152);
+    padding: 50px 0px 0px 150px;
+    height: 125px;
+    background-color: rgb(209,32,39);
+  }
+
+  header img {
+    padding: 12px;
+    float: left;
+  }
+
+  .commandsNotes {
+    color: rgb(255,221,152);
+    font-family: 'Roboto', sans-serif;
+    padding:10px;
+    background-color: rgb(112,84,44);
+  }
+
+  .command,
+  .note {
+    padding: 10px 0px 5px 15px;
+    color: rgb(112,84,44);
+  }
