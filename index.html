@@ -14,18 +14,30 @@
         <div>GIT Cheatsheet</div>
     </header>
     <div class="grid">
-        <div class="commandsNotes">Commands</div>
-        <div class="commandsNotes">Notes</div>
+        <div class="commands-header">Commands</div>
+        <div class="notes-header">Notes</div>
         <div class="command">git help</div>
         <div class="note">invokes git manual to terminal display</div>
         <div class="command">git init</div>
-        <div class="note">initializes git version control for a project. run this command from inside root of project directory</div>
+        <div class="note">initializes git version control for a project</div>
         <div class="command">git add .</div>
-        <div class="note">adds project changes to git.  run this command from inside root of project directory</div>
+        <div class="note">adds all (.) file changes to git</div>
         <div class="command">git commit</div>
-        <div class="note"><div>commits changes to git.  run this command from inside root of project directory</div></div>
+        <div class="note"><div>commits changes to git</div></div>
         <div class="command">git log</div>
-        <div class="note"><div>invokes git  log.  run this command from inside root of project directory</div></div>
+        <div class="note"><div>invokes git  log</div></div>
+        <div class="command">git log --grep="search term"</div>
+        <div class="note"><div>searches for a term inside the log. grep stands for "global regular expression"</div></div>
+        <div class="command">git status</div>
+        <div class="note"><div>displays current status of git project, including "untracked" files, "files to be committed" (or staged), etc.</div></div>
+        <div class="command">git diff</div>
+        <div class="note"><div></div>displays changes to working directory files. compares changes to file of the working directory copy against the staging directory copy</div>
+        <div class="command">git diff --staged</div>
+        <div class="note"><div>displays changes to files in the staging area only. compares changes to file of the staging directory copy against the repository copy</div></div>
+        <div class="command">git mv fileName.txt newFileName.txt</div>
+        <div class="note"><div>renames file from command line</div></div>
+    
+    
     </div>
     
      <script src="js/script.js"></script>

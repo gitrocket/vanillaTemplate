@@ -10,7 +10,7 @@
   }
   
   html {
-    background-color: rgb(226,160,37)
+    background-color: rgb(226,160,37);
   }
   /* body * {
     outline: 1px solid pink;
@@ -27,7 +27,8 @@
     color: rgb(255,221,152);
     padding: 50px 0px 0px 150px;
     height: 125px;
-    background-color: rgb(209,32,39);
+    background-image: linear-gradient(to right,rgba(209,32,39,1),rgba(226,160,0));
+    margin: auto;
   }
 
   header img {
@@ -35,15 +36,24 @@
     float: left;
   }
 
-  .commandsNotes {
+  .commands-header,
+  .notes-header {
+    font-size: 1.5rem;
     color: rgb(255,221,152);
     font-family: 'Roboto', sans-serif;
     padding:10px;
     background-color: rgb(112,84,44);
   }
-
+.notes-header {
+  padding-left: 150px;
+}
   .command,
   .note {
-    padding: 10px 0px 5px 15px;
+    font-size: 1.5rem;
+    padding: 10px 10px 5px 15px;
     color: rgb(112,84,44);
+  }
+
+  .note {
+    padding-left: 150px;
   }
